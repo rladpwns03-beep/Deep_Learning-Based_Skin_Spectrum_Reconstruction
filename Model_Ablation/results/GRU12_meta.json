@@ -1,0 +1,1 @@
+{"spec": {"cell": "GRU", "hidden": 12, "bi": false, "name": "GRU12"}, "n_params": 661}

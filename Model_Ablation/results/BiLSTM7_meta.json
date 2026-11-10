@@ -1,0 +1,1 @@
+{"spec": {"cell": "LSTM", "hidden": 7, "bi": true, "name": "BiLSTM7"}, "n_params": 743}

@@ -1,0 +1,1 @@
+{"spec": {"cell": "RNN", "hidden": 16, "bi": true, "name": "BiRNN16"}, "n_params": 737}

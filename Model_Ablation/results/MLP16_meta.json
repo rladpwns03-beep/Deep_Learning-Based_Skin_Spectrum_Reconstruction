@@ -1,0 +1,1 @@
+{"spec": {"cell": "MLP", "hidden": 16, "bi": false, "name": "MLP16"}, "n_params": 97}
