@@ -1,0 +1,9 @@
+# conda 환경 skin_spectra (Python 3.11.18)에서 확인한 버전. 2026-11-12 기준.
+# GPU(RTX 50 시리즈 등 최신 GPU)용 PyTorch는 CUDA 12.8 빌드를 따로 설치한다:
+#   conda create -n skin_spectra python=3.11
+#   conda activate skin_spectra
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+#   pip install -r requirements.txt
+numpy==2.4.6
+pandas==3.1.1
+matplotlib==3.11.2
