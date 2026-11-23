@@ -859,6 +859,11 @@ def main(argv=None):
     old = pd.read_csv(mpath, encoding="utf-8-sig") if mpath.exists() else pd.DataFrame()
     new = pd.DataFrame([dict(i, generated_at=dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S"), code_commit=commit) for i in infos])
     if len(old):
+        keep = old.set_index("figure")
+        for col in ("presentation_pixels", "report_pixels"):     # a profile that was not redrawn keeps its recorded size
+            if col in keep.columns:
+                prev = new.figure.map(keep[col])
+                new[col] = new[col].fillna(prev) if col in new.columns else prev
         new = pd.concat([old[~old.figure.isin(new.figure)], new], ignore_index=True)
     new["order"] = new.figure.map({n: k for k, n in enumerate(FIGURES)})
     new.sort_values("order").drop(columns="order").to_csv(mpath, index=False, encoding="utf-8-sig")
