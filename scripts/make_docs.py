@@ -408,8 +408,80 @@ def preregistration(commit):
     print("작성:", mpath, jpath)
 
 
+def external_doc():
+    d, u = RES / "external_test", RES / "union16"
+    cfg = jload(d / "config.json")
+    summ, cm, cs = read(d / "summary.csv"), read(d / "comparisons_main.csv"), read(d / "comparisons_supplementary.csv")
+    cb, cd, pr = read(d / "comparisons_band.csv"), read(d / "comparisons_delta_hbi.csv"), read(d / "peak_rs_reference.csv")
+    gm = ["a_rmse", "r_rmse_pp", "peak_rmse", "peak_bias"]
+    supp, hp = SUPP[:4], cfg["hyperparameters"]
+    bias_note = ("주의 (동결 문서 v1.1 보충): 뒤 모델이 Global Linear 또는 HbI-binned mean인 쌍체 비교에서 Peak bias와 구간 bias 행은 해석하지 않는다 "
+                 "(두 모델의 bias가 구조적으로 0). BiGRU (Peak-constrained selection)는 epoch 0이 선택되어 Global Linear와 같은 값이다.\n")
+    o = ["# ExternalTest6과 Union16 결과 (Phase 6–7)\n",
+         "이 문서는 `scripts/make_docs.py --external`이 결과 파일에서 생성한다. 판정 문구는 넣지 않았다. "
+         "단위: absorbance RMSE, Peak RMSE, Peak bias, 표준편차 지표, 구간 bias는 ×10⁻³ absorbance, reflectance RMSE는 %p. " + P_NOTE + "\n",
+         "## 1. ExternalTest6 (학습 = Development cohort 10명 전체, 평가 = External cohort S101–S106, 1회 실행)\n",
+         f"- 동결 문서: `{cfg['preregistration']['file']}` (SHA-256 `{cfg['preregistration']['sha256']}`), 태그 `preregistration-externaltest-v1.1`. "
+         f"실행 시점의 코드 커밋 `{cfg['code_commit']}`.\n"
+         f"- 고정 설정: PLS_v2 성분 수 {hp['pls_v2_components']}, PLS_v1 성분 수 {hp['pls_v1_components']}, Ridge alpha {hp['ridge_alpha']:g}, "
+         f"BiGRU hidden {hp['bigru']['hidden']}, slope_l2 {hp['bigru']['slope_l2']:g}, epoch {hp['bigru']['epoch']} (seed 0, 1, 2). 실행 후 설정을 바꿔 다시 실행하지 않았다.\n"
+         f"- 쌍체 비교: {cfg['paired_comparison']}\n", bias_note,
+         "### 1.1 General reconstruction (피험자당 90쌍, 피험자 6명 평균 ± 표준편차)\n", wide(summ, "general", gm, MAIN_MODELS),
+         "사전 지정 비교\n", cmp_table(cm, ["general"]), "보조 표\n", wide(summ, "general", gm, supp), cmp_table(cs, ["general"]),
+         "### 1.2 Fixed-target repeatability (In-range subject = S101, S106)\n"]
+    for sec, lab in (("repeatability", "전체 (6명)"), ("repeatability_in_range", "In-range subject (S101, S106)"), ("repeatability_other", "그 밖의 피험자 (4명)")):
+        o += [f"{lab}\n", wide(summ, sec, ["peak_sd", "spectral_sd"], ["Raw"] + MAIN_MODELS + supp, True)]
+    o += ["사전 지정 비교 (전체 6명)\n", cmp_table(cm, ["repeatability"]),
+          f"### 1.3 Near-target accuracy, 허용 폭 0.02 (기술 통계만)\n", f"{cfg['near_target']}. n = 대상 피험자 수.\n",
+          wide(summ, "near_0.02", ["a_rmse", "peak_rmse"], MAIN_MODELS + supp, True),
+          "### 1.4 파장 구간별 복원 오차\n"]
+    for met in ("a_rmse", "bias"):
+        rows = [[m] + [cell(summ, f"band|{b}", met, m) for b in BANDS] for m in MAIN_MODELS + supp[:3]]
+        o += [f"구간 {'absorbance RMSE' if met == 'a_rmse' else 'bias (예측 − 정답)'} ×10⁻³\n",
+              table(["모델"] + [f"{b} ({len(w)})" for b, w in BANDS.items()], rows)]
+    o += ["570 nm: h_in → h* 고정, 오차 0 (모든 모델).\n", cmp_table(cb, [f"band|{b}" for b in BANDS], None, True),
+          "### 1.5 잔차 기울기의 파장 4구간 집계\n", slope_table(d / "residual_slope_summary.csv"),
+          f"검사: Δh = 0 제외 순서쌍 {cfg['residual_slope_checks']['n_excluded_dh0']}개, BiGRU 잔차 기울기와 `BiGRUModel.residual`의 최대 차이 "
+          f"{cfg['residual_slope_checks']['bigru_vs_residual_max_abs']:.1e}.\n",
+          "### 1.6 HbI 변화 크기 구간별 오차 (n = 그 구간에 쌍이 있는 피험자 수)\n"]
+    for direction, lab in (("all", "전체"), ("increase", "증가"), ("decrease", "감소")):
+        rows = [[m] + [cell(summ, f"dh|{b}|{direction}", "a_rmse", m, True) for b in DH] for m in MAIN_MODELS + supp]
+        o += [f"absorbance RMSE, 방향: {lab}\n", table(["모델"] + DH, rows)]
+    rows = [[m] + [cell(summ, f"dh|{b}|all", "peak_rmse", m, True) for b in DH] for m in MAIN_MODELS + supp]
+    o += ["Peak RMSE, 방향 전체\n", table(["모델"] + DH, rows), "구간별 쌍체 차이 (방향 전체)\n",
+          cmp_table(cd, [f"dh|{b}|all" for b in DH], ["a_rmse", "peak_rmse"], True),
+          "### 1.7 추가 기준값: 피험자 내 Peak 대 HbI 선형회귀의 HbI 0.6 값 (Peak_RS 단위)\n",
+          f"{cfg['peak_rs_reference']}\n"]
+    models = MAIN_MODELS + supp[:3]
+    rows = []
+    for s, g in pr.groupby("subject"):
+        g = g.set_index("model")
+        r0 = g.iloc[0]
+        rows.append([s, "외삽" if r0.extrapolated else "In-range", f"{r0.reference_peak_rs:.2f} ± {r0.reference_se_peak_rs:.2f}"] +
+                    [f"{g.loc[m, 'model_minus_reference_peak_rs']:+.2f}" for m in models])
+    o.append(table(["피험자", "구분", "기준값 ± 표준오차"] + [f"{m} − 기준값" for m in models], rows))
+    o.append("## 2. Union16 분할 (보조, 고정 설정)\n")
+    note = jload(u / "training_size_effect_note.json")
+    o.append(f"- {note['rule3_exception']}\n- {note['note']}\n- 하이퍼파라미터는 동결 문서의 값으로 고정했다 (다시 고르지 않음).\n")
+    for name, lab in (("Union16_LeaveOneSubjectOut", "피험자 16명의 평균 ± 표준편차"),
+                      ("Union16_Holdout73", "피험자 → 분할 안 평균 → 분할 10개의 평균 ± 표준편차; 쌍체 비교는 피험자별 분할 평균 뒤 n = 16"),
+                      ("Development10_LeaveOneSubjectOut_FixedHyperparameters", "Development cohort 10명, 9명 학습, 동결 문서의 고정값 (학습 피험자 수 비교용)")):
+        s2, c2 = read(u / name / "summary.csv"), read(u / name / "comparisons_main.csv")
+        o += [f"### {name}\n", f"집계: {lab}.\n", wide(s2, "general", gm, MAIN_MODELS + supp),
+              cmp_table(c2, ["general"], ["a_rmse", "r_rmse_pp", "peak_rmse"]),
+              wide(s2, "repeatability", ["peak_sd", "spectral_sd"], ["Raw"] + MAIN_MODELS + supp, True)]
+    e = read(u / "training_size_effect.csv")
+    o.append("### 학습 피험자 수 효과 (General reconstruction, 피험자 쌍체 차이; 차이 = 15명 학습 − 더 적은 학습, 개선 = 차이 < 0)\n")
+    rows = [[r.cohort, r.role, r.comparison, r.model, LABEL[r.metric], int(r.n), num(r.diff_mean * SCALE[r.metric]), num(r.diff_se * SCALE[r.metric]),
+             f"{int(r.n_improved)}/{int(r.n)}", num(r.wilcoxon_p), num(r.sign_p)] for r in e.itertuples()]
+    o.append(table(["대상", "역할", "비교", "모델", "지표", "n", "차이 평균", "표준오차", "개선 k/n", "Wilcoxon p", "부호검정 p"], rows))
+    (DOCS / "Results_ExternalTest_Union16.md").write_text("\n".join(o), encoding="utf-8")
+    print("작성:", DOCS / "Results_ExternalTest_Union16.md")
+
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--external", action="store_true")
     ap.add_argument("--results", action="store_true")
     ap.add_argument("--preregistration", action="store_true")
     ap.add_argument("--commit", default=None)
@@ -417,6 +489,8 @@ def main():
     DOCS.mkdir(exist_ok=True)
     if a.results:
         results_doc()
+    if a.external:
+        external_doc()
     if a.preregistration:
         if not a.commit:
             ap.error("--commit 이 필요함")
