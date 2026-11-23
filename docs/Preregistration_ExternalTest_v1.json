@@ -1,0 +1,63 @@
+{
+ "version": "v1",
+ "frozen_at_code_commit": "a617ae6edab89b4889a753f4899281daf2aba8b8",
+ "hyperparameters": {
+  "pls_v2_components": 6,
+  "pls_v1_components": 6,
+  "ridge_alpha": 1.0,
+  "bigru": {
+   "hidden": 8,
+   "slope_l2": 0.0,
+   "epoch": 200
+  },
+  "bigru_peak_constrained": {
+   "hidden": 4,
+   "slope_l2": 0.1,
+   "epoch": 0
+  },
+  "bigru_fixed_setting": {
+   "hidden": 8,
+   "slope_l2": 0.001,
+   "epoch": 150
+  },
+  "bigru_common": {
+   "lr": 0.003,
+   "clip": 1.0,
+   "seeds": [
+    0,
+    1,
+    2
+   ]
+  },
+  "hbi_binned_mean": {
+   "bin_width": 0.05,
+   "edges": "0.40-0.75"
+  }
+ },
+ "split_manifest_sha256": {
+  "Development10_Holdout73": "9e662cc9b117319bafa85ebd83ecc45d757bd83950e4ba101af4e8e5921defa5",
+  "Development10_LeaveOneSubjectOut": "55e3a3df3cdd671709d23a80cf069d720e7ff9d002379f9cc2702861bf82b836",
+  "ExternalTest6": "0e6a6bc19d838daae0cc48e90d9c0ebc974f095457dd6e1905a6d5911bd6bd3e",
+  "Union16_Holdout73": "bbf4d77a8bd9533eda90ddd9ff3b6684ede74506217b88a1a6f0661f6d9c40c7",
+  "Union16_LeaveOneSubjectOut": "c73b1a7f99ed5a878df6b14a45afee0ce76515d4b4353137979864d86c7de5b1"
+ },
+ "environment": {
+  "python": "3.11.18",
+  "torch": "2.11.0+cpu",
+  "numpy": "2.4.6",
+  "pandas": "3.1.1",
+  "matplotlib": "3.11.2",
+  "openpyxl": "3.1.5",
+  "platform": "Windows-10-10.0.26200-SP0"
+ },
+ "validation": {
+  "bigru": {
+   "val_a_rmse": 0.011123315513018334,
+   "val_peak_rmse": 0.0011625680134185828,
+   "global_linear": {
+    "val_a_rmse": 0.012505008704990687,
+    "val_peak_rmse": 0.0007418189068497106
+   }
+  }
+ }
+}
