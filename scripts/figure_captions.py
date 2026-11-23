@@ -194,6 +194,16 @@ def write_captions() -> Path:
         out += [f"## {name}", "", c["summary"], "",
                 f"- Panels: {c['panels']}", f"- Data: {c['data']}", f"- Markers, error bars, units: {c['marks']}",
                 f"- Notes: {c['notes'].replace('{PEAK_RS}', peak_rs)}", f"- Source: {c['source']}", ""]
+    out += ["## Panels without text (for slides)", "",
+            "`python -X utf8 scripts/make_figures.py --profile presentation --textless-panels` additionally writes "
+            "`results/figures_final/presentation_textless_panels/<FigureName>/`. Every panel of the presentation figure is saved as its own image "
+            "(`<FigureName>__<panel>.jpg`, 200 dpi) with all text removed: titles, axis names, tick numbers, annotations and legends. "
+            "Each panel image keeps the blank margins where its text was. `text_labels.csv` in the same folder lists every removed string with the panel, "
+            "its kind, its position inside the panel image (fractions from the top-left corner), rotation and original font size. "
+            "`<FigureName>__legend_keys.jpg` holds the legend markers only, in the order of the legend entries in `text_labels.csv`. "
+            "`panel_index.csv` lists all panel files with their size and their position in the full figure. Panel names are the grid position "
+            "(`r1c2` = row 1, column 2), the subject for the reconstruction examples, or the panel letter for the post hoc figure. "
+            "The versions with text in `presentation/` and `report/` are not changed.", ""]
     DOC.parent.mkdir(exist_ok=True)
     DOC.write_text("\n".join(out), encoding="utf-8")
     return DOC

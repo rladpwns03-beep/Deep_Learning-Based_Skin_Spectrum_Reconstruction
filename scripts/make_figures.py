@@ -364,6 +364,7 @@ def figure07(st):
         h = d.hbi[d.subject == s]
         in_range = h.min() <= 0.6 <= h.max()
         top, bot = fig.add_subplot(gs[2 * (n // 3), n % 3]), fig.add_subplot(gs[2 * (n // 3) + 1, n % 3])
+        top.panel_group = bot.panel_group = s                      # one cell (spectrum + error) = one panel
         top.plot(WL, e["X"][q], color="#8C8C8C", ls="--", lw=st.lw * 0.7, zorder=2)
         top.plot(WL, e["Y"][q], color="#000000", lw=st.lw * 0.9, zorder=3)
         st.shade_bands(bot); st.zero(bot)
@@ -762,6 +763,7 @@ def posthoc01(st):
     else:
         gs = fig.add_gridspec(3, 1, height_ratios=[1.9, 1.3, 0.9])
         axa, axb, axc = (fig.add_subplot(gs[i]) for i in range(3))
+    axa.panel_group, axb.panel_group, axc.panel_group = "a", "b", "b"
     cohort_model_panel(st, axa, "a", "general", "a_rmse", models, rows, series_values=values)
     st.ylab(axa, *A_RMSE)
     st.panel(axa, "a", "Absorbance RMSE by subject")
@@ -818,7 +820,99 @@ FIGURES = {
 }
 
 
-def build(name: str, profiles: list) -> dict | None:
+TEXTLESS = OUT / "presentation_textless_panels"
+
+
+def _plain(s: str) -> str:
+    return s.replace("$^{-3}$", "⁻³").replace("$", "")
+
+
+def save_textless_panels(st, fig, name: str) -> list:
+    """Additional output for slides: every panel saved as its own image with ALL text removed (titles, axis names, tick numbers,
+    annotations, legends). Each panel keeps the blank margins where its text was, so the text can be retyped in one font.
+    The removed text is listed in text_labels.csv with its position inside the panel image (fractions from the top-left corner)."""
+    from matplotlib.text import Text
+    from matplotlib.transforms import Bbox
+    out = TEXTLESS / name
+    out.mkdir(parents=True, exist_ok=True)
+    fig.canvas.draw()
+    rend = fig.canvas.get_renderer()
+    groups = {}
+    for ax in fig.axes:
+        ss = ax.get_subplotspec()
+        key = getattr(ax, "panel_group", None) or f"r{ss.rowspan.start + 1}c{ss.colspan.start + 1}"
+        groups.setdefault(key, []).append(ax)
+    pad = 0.04 * fig.dpi
+    boxes = {}
+    for key, axs in groups.items():                           # crop box = panel with its text, computed before the text is hidden
+        b = Bbox.union([ax.get_tightbbox(rend) for ax in axs])
+        boxes[key] = Bbox.from_extents(max(b.x0 - pad, 0), max(b.y0 - pad, 0), min(b.x1 + pad, fig.bbox.width), min(b.y1 + pad, fig.bbox.height))
+    full = Bbox.from_extents(0, 0, fig.bbox.width, fig.bbox.height)
+
+    def kind_of(t, ax):
+        if t in (ax.title, ax._left_title, ax._right_title):
+            return "panel title"
+        if t is ax.xaxis.label:
+            return "x axis name"
+        if t is ax.yaxis.label:
+            return "y axis name"
+        if any(t is x for x in ax.get_xticklabels()):
+            return "x tick"
+        if any(t is x for x in ax.get_yticklabels()):
+            return "y tick"
+        return "annotation"
+
+    legend_text = {}
+    for owner, legs in [(None, fig.legends)] + [(ax, [ax.get_legend()] if ax.get_legend() else []) for ax in fig.axes]:
+        for leg in legs:
+            for n, t in enumerate(leg.get_texts()):
+                legend_text[id(t)] = (owner, n)
+    key_of = {id(ax): key for key, axs in groups.items() for ax in axs}
+    owner_ax = {id(t): ax for ax in fig.axes for t in ax.findobj(Text)}      # tick labels and axis names do not always carry .axes
+    rows = []
+    for t in fig.findobj(Text):
+        s = t.get_text().strip()
+        if not s or not t.get_visible():
+            continue
+        e = t.get_window_extent(rend)
+        if id(t) in legend_text:
+            owner, n = legend_text[id(t)]
+            panel, kind = (key_of[id(owner)], f"legend entry {n + 1} (inside panel)") if owner is not None else ("figure", f"legend entry {n + 1} (below panels)")
+        elif id(t) in owner_ax:
+            panel, kind = key_of[id(owner_ax[id(t)])], kind_of(t, owner_ax[id(t)])
+        else:
+            panel, kind = "figure", "figure title" if t is getattr(fig, "_suptitle", None) else "figure text"
+        box = boxes.get(panel, full)
+        cx, cy = (e.x0 + e.x1) / 2, (e.y0 + e.y1) / 2
+        if kind in ("x tick", "y tick") and not (box.x0 <= cx <= box.x1 and box.y0 <= cy <= box.y1):
+            continue                                              # tick outside the axis range (not drawn)
+        rows.append(dict(figure=name, panel=panel, kind=kind, text=_plain(s).replace("\n", " / "), x_fraction=round((cx - box.x0) / box.width, 4),
+                         y_fraction_from_top=round((box.y1 - cy) / box.height, 4), rotation_deg=round(float(t.get_rotation()), 1),
+                         font_size_pt=round(float(t.get_fontsize()), 1)))
+    # legend keys only (no text), in the order of the "legend entry" rows of the figure-level legend
+    for leg in fig.legends:
+        hs = leg.legend_handles
+        lf = plt.figure(figsize=(1.0, 0.36 * len(hs) + 0.1))
+        lf.legend(handles=hs, labels=[" "] * len(hs), loc="center", ncol=1, frameon=False, handletextpad=0, borderpad=0, labelspacing=0.6)
+        lf.savefig(out / f"{name}__legend_keys.jpg", format="jpeg", dpi=st.dpi, facecolor="white", pil_kwargs=dict(quality=FS.JPEG_QUALITY))
+        plt.close(lf)
+    fig.set_layout_engine("none")                              # freeze the axes positions: hiding text must not move the panels
+    for t in fig.findobj(Text):
+        t.set_visible(False)
+    for leg in list(fig.legends) + [ax.get_legend() for ax in fig.axes if ax.get_legend()]:
+        leg.set_visible(False)
+    index = []
+    for key, box in boxes.items():
+        path = out / f"{name}__{key}.jpg"
+        fig.savefig(path, format="jpeg", dpi=st.dpi, facecolor="white", pil_kwargs=dict(quality=FS.JPEG_QUALITY),
+                    bbox_inches=box.transformed(fig.dpi_scale_trans.inverted()))
+        index.append(dict(figure=name, panel=key, file=f"{name}/{path.name}", width_in=round(box.width / fig.dpi, 3), height_in=round(box.height / fig.dpi, 3),
+                          left_in_full_figure_in=round(box.x0 / fig.dpi, 3), top_in_full_figure_in=round((fig.bbox.height - box.y1) / fig.dpi, 3)))
+    pd.DataFrame(rows).sort_values(["panel", "kind"], kind="stable").to_csv(out / "text_labels.csv", index=False, encoding="utf-8-sig")
+    return index
+
+
+def build(name: str, profiles: list, textless: bool = False) -> dict | None:
     fn, inputs = FIGURES[name]
     missing = [str(p.relative_to(ROOT)) for p in inputs if not p.exists()]
     if missing:
@@ -833,6 +927,8 @@ def build(name: str, profiles: list) -> dict | None:
             st.save(fig, OUT / prof / f"{name}.jpg")
             w, h = fig.get_size_inches()
             info[f"{prof}_pixels"] = f"{round(w * st.dpi)} x {round(h * st.dpi)}"
+            if textless and prof == "presentation":             # after the normal file is saved; the figure object is modified here
+                info["textless"] = save_textless_panels(st, fig, name)
             plt.close(fig)
     d = pd.DataFrame(rows, columns=["panel", "series", "x", "y", "error", "n", "kind", "k"])
     (OUT / "plotted_data").mkdir(parents=True, exist_ok=True)
@@ -845,11 +941,25 @@ def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--profile", choices=["both", "presentation", "report"], default="both")
     ap.add_argument("--only", nargs="*", default=None, help="figure name prefixes, for example Figure03")
+    ap.add_argument("--textless-panels", action="store_true",
+                    help="also save every presentation panel separately with all text removed (results/figures_final/presentation_textless_panels)")
     a = ap.parse_args(argv)
     profiles = ["presentation", "report"] if a.profile == "both" else [a.profile]
+    if a.textless_panels and "presentation" not in profiles:
+        ap.error("--textless-panels needs the presentation profile")
     names = [n for n in FIGURES if a.only is None or any(n.startswith(o) for o in a.only)]
     commit = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT, capture_output=True, text=True).stdout.strip()
-    infos = [i for i in (build(n, profiles) for n in names) if i]
+    infos = [i for i in (build(n, profiles, a.textless_panels) for n in names) if i]
+    panels = [p for i in infos for p in i.pop("textless", [])]
+    if panels:
+        ipath = TEXTLESS / "panel_index.csv"
+        new_idx = pd.DataFrame(panels)
+        if ipath.exists():
+            old_idx = pd.read_csv(ipath, encoding="utf-8-sig")
+            new_idx = pd.concat([old_idx[~old_idx.figure.isin(new_idx.figure)], new_idx], ignore_index=True)
+        new_idx["order"] = new_idx.figure.map({n: k for k, n in enumerate(FIGURES)})
+        new_idx.sort_values("order", kind="stable").drop(columns="order").to_csv(ipath, index=False, encoding="utf-8-sig")
+        print(f"textless panels: {len(panels)} files in {TEXTLESS.relative_to(ROOT)}")
     OUT.mkdir(parents=True, exist_ok=True)
     spath, mpath = OUT / "figure_strings.json", OUT / "figure_manifest.csv"
     strings = json.loads(spath.read_text(encoding="utf-8")) if spath.exists() else {}

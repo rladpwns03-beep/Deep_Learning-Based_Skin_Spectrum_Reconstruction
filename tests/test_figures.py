@@ -54,7 +54,9 @@ def setUpModule():
     STATE["before"] = sha_tree()
     STATE["infos"] = make_figures.main(["--profile", "both"])
     STATE["first"] = plotted_bytes()
-    make_figures.main(["--profile", "presentation"])
+    STATE["jpg_first"] = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((OUT / "presentation").glob("*.jpg"))}
+    make_figures.main(["--profile", "presentation", "--textless-panels"])
+    STATE["jpg_second"] = {p.name: hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((OUT / "presentation").glob("*.jpg"))}
     STATE["second"] = plotted_bytes()
     STATE["after"] = sha_tree()
     STATE["names"] = list(make_figures.FIGURES)
@@ -113,6 +115,24 @@ class TestFigureFiles(unittest.TestCase):
         for s in texts:                                           # English only inside figures
             self.assertIsNone(re.search(r"[가-힣]", s), s)
         self.assertIn("Post hoc, exploratory (not preregistered)", strings["PostHocExploratoryFigure01_SubjectMeanSlopeBaseline"]["report"])
+
+    def test_textless_split_panels(self):
+        from PIL import Image
+        self.assertEqual(STATE["jpg_first"], STATE["jpg_second"])            # the versions with text are not changed by the extra output
+        root = OUT / "presentation_textless_panels"
+        idx = pd.read_csv(root / "panel_index.csv", encoding="utf-8-sig")
+        self.assertEqual(sorted(idx.figure.unique()), sorted(STATE["names"]))
+        self.assertEqual(len(idx), 54)
+        for r in idx.itertuples():
+            with Image.open(root / r.file) as im:
+                im.load()
+                self.assertEqual(im.mode, "RGB")
+                self.assertAlmostEqual(im.size[0] / 200, r.width_in, delta=0.02)
+        for name in STATE["names"]:
+            t = pd.read_csv(root / name / "text_labels.csv", encoding="utf-8-sig")
+            self.assertGreater(len(t), 5)
+            self.assertTrue(set(t.panel) - {"figure"} <= set(idx[idx.figure == name].panel))
+            self.assertTrue((root / name / f"{name}__legend_keys.jpg").exists())
 
     def test_6_deterministic_plotted_data(self):
         self.assertEqual(STATE["first"], STATE["second"])
