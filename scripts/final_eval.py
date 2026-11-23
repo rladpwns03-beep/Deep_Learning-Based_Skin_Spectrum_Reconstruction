@@ -188,7 +188,9 @@ def comparison_table(df: pd.DataFrame, comparisons, sections=None, metrics=None)
     """피험자 쌍체 차이 표. 비교 이름 'A minus B', 차이 = A - B, 개선 = 차이 < 0 (ABS_JUDGED 지표는 |A| < |B|)."""
     sv = subject_values(df)
     rows = []
-    for sec, met in sv.index.droplevel([2, 3]).unique():
+    order = sv.index.droplevel([2, 3]).unique()
+    sv = sv.sort_index()                                    # 조회용 정렬 (값과 출력 순서는 그대로)
+    for sec, met in order:
         if met in ("n_pairs", "peak_mean") or (metrics is not None and met not in metrics):
             continue
         if sections is not None and not any(sec == s or sec.startswith(s) for s in sections):
