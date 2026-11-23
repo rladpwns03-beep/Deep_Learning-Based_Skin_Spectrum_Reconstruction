@@ -177,3 +177,10 @@ BiGRU 선택값 요약 (전체는 `docs/Results_Retrain_Tuning.md` 3장): Develo
 ### 다음 단계
 
 환경을 만든 뒤 Phase 0의 17번(단위 테스트)을 실행하고 Phase 0 정식 보고를 한다. 불일치가 없으면 Phase 1로 진행한다.
+
+## 7. v1.1 보충 (External cohort 결과를 보기 전에 결정, 2026-11-23)
+
+코드와 `docs/Preregistration_ExternalTest_v1.json`의 설정값은 바꾸지 않았다. 이 절은 해석 규칙만 추가한다.
+
+- 뒤 모델이 Global Linear 또는 HbI-binned mean인 쌍체 비교에서 Peak bias와 구간 bias 행은 해석하지 않는다. 테스트 쌍이 피험자 안의 모든 순서쌍이고 두 모델의 보정은 i → j와 j → i에서 정확히 반대 부호이므로, 두 모델의 bias가 구조적으로 0이기 때문이다. 표는 그대로 생성하고 주의 문구를 유지한다.
+- BiGRU (Peak-constrained selection)는 `Development10_AllSubjects`에서 epoch 0이 선택되었으므로 ExternalTest6에서 Global Linear와 같은 값이 나온다.
