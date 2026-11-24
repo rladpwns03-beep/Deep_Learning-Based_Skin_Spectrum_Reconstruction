@@ -1,0 +1,44 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure05_BandError_DifferenceFromGlobalLinear,figure,figure title,Band-wise absorbance RMSE difference from Global Linear (Q-band excludes 570 nm),0.4208,0.0254,0.0,17.0
+Figure05_BandError_DifferenceFromGlobalLinear,figure,legend entry 1 (below panels),"Development cohort (leave-one-subject-out, n = 10)",0.2868,0.9181,0.0,12.6
+Figure05_BandError_DifferenceFromGlobalLinear,figure,legend entry 2 (below panels),External cohort (n = 6),0.1964,0.9601,0.0,12.6
+Figure05_BandError_DifferenceFromGlobalLinear,figure,legend entry 3 (below panels),Standard error across subjects; k/n = subjects with difference < 0,0.7046,0.9181,0.0,12.6
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,6/10,0.2468,0.7773,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,2/6,0.3088,0.2271,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,7/10,0.4019,0.7787,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,3/6,0.4639,0.5157,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,7/10,0.5569,0.5779,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,4/6,0.619,0.556,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,6/10,0.712,0.4387,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,4/6,0.774,0.4622,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,7/10,0.867,0.2722,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,annotation,4/6,0.9291,0.7027,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,panel title,(a) PLS_v2 − Global Linear,0.3836,0.0286,0.0,16.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,x tick,Soret / 400–440 nm,0.2778,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,x tick,Band / 450–460 nm,0.4329,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,x tick,Carotenoid / 470–510 nm,0.5879,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,x tick,Q-band / 520–590 nm,0.743,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,x tick,Red / 600–700 nm,0.898,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,y axis name,Difference in band / absorbance RMSE / (×10⁻³ absorbance),0.0649,0.4865,90.0,16.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,y tick,−6,0.1491,0.938,0.0,14.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,y tick,−4,0.1491,0.7552,0.0,14.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,y tick,−2,0.1491,0.5724,0.0,14.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,y tick,0,0.1575,0.3896,0.0,14.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,y tick,2,0.1575,0.2067,0.0,14.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c1,y tick,4,0.1575,0.0239,0.0,14.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,6/10,0.0955,0.65,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,2/6,0.17,0.1331,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,5/10,0.2817,0.4829,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,3/6,0.3562,0.298,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,6/10,0.4679,0.4564,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,5/6,0.5424,0.4702,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,4/10,0.6541,0.2735,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,1/6,0.7286,0.288,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,8/10,0.8403,0.6125,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,annotation,4/6,0.9148,0.84,0.0,10.1
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,panel title,(b) BiGRU − Global Linear,0.2524,0.0286,0.0,16.0
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,x tick,Soret / 400–440 nm,0.1328,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,x tick,Band / 450–460 nm,0.319,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,x tick,Carotenoid / 470–510 nm,0.5052,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,x tick,Q-band / 520–590 nm,0.6914,0.9564,0.0,11.9
+Figure05_BandError_DifferenceFromGlobalLinear,r1c2,x tick,Red / 600–700 nm,0.8776,0.9564,0.0,11.9

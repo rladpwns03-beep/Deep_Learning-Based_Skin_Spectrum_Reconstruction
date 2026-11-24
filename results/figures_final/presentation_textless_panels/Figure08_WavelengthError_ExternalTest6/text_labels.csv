@@ -1,0 +1,56 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure08_WavelengthError_ExternalTest6,figure,figure title,Wavelength-wise reconstruction error in the External cohort (n = 6),0.3288,0.0273,0.0,17.0
+Figure08_WavelengthError_ExternalTest6,figure,legend entry 1 (below panels),HbI-binned mean,0.2942,0.9123,0.0,12.6
+Figure08_WavelengthError_ExternalTest6,figure,legend entry 2 (below panels),Global Linear,0.2825,0.9572,0.0,12.6
+Figure08_WavelengthError_ExternalTest6,figure,legend entry 3 (below panels),PLS_v2,0.4238,0.9123,0.0,12.6
+Figure08_WavelengthError_ExternalTest6,figure,legend entry 4 (below panels),BiGRU,0.4212,0.9572,0.0,12.6
+Figure08_WavelengthError_ExternalTest6,figure,legend entry 5 (below panels),Band: mean ± standard error across 6 subjects,0.6471,0.9123,0.0,12.6
+Figure08_WavelengthError_ExternalTest6,figure,legend entry 6 (below panels),"570 nm (fixed to the target HbI, error 0)",0.6229,0.9572,0.0,12.6
+Figure08_WavelengthError_ExternalTest6,r1c1,annotation,Soret,0.2615,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c1,annotation,Band 450–460,0.3495,0.1007,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c1,annotation,Carotenoid,0.4376,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c1,annotation,Q-band,0.601,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c1,annotation,Red,0.84,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c1,panel title,(a) RMSE at each wavelength,0.4403,0.031,0.0,16.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x axis name,Wavelength (nm),0.5885,0.969,0.0,16.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,350,0.0854,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,400,0.2112,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,450,0.337,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,500,0.4627,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,550,0.5885,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,600,0.7142,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,650,0.84,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,x tick,700,0.9657,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y axis name,RMSE at each / wavelength / (×10⁻³ absorbance),0.0708,0.5043,90.0,16.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y tick,0,0.1719,0.8773,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y tick,5,0.1719,0.7447,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y tick,10,0.1627,0.6122,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y tick,15,0.1627,0.4797,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y tick,20,0.1627,0.3472,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y tick,25,0.1627,0.2146,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c1,y tick,30,0.1627,0.0821,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,annotation,Soret,0.2615,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c2,annotation,Band 450–460,0.3495,0.1007,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c2,annotation,Carotenoid,0.4376,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c2,annotation,Q-band,0.601,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c2,annotation,Red,0.84,0.1182,0.0,11.9
+Figure08_WavelengthError_ExternalTest6,r1c2,legend entry 1 (inside panel),PLS_v2 − Global Linear,0.4904,0.7554,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,legend entry 2 (inside panel),BiGRU − Global Linear,0.4829,0.8156,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,panel title,(b) Difference from Global Linear,0.4617,0.031,0.0,16.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x axis name,Wavelength (nm),0.5885,0.969,0.0,16.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,350,0.0854,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,400,0.2112,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,450,0.337,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,500,0.4627,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,550,0.5885,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,600,0.7142,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,650,0.84,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,x tick,700,0.9657,0.915,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y axis name,Difference from / Global Linear / (×10⁻³ absorbance),0.0708,0.5043,90.0,16.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y tick,−6,0.1627,0.8884,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y tick,−4,0.1627,0.7591,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y tick,−2,0.1627,0.6299,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y tick,0,0.1719,0.5007,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y tick,2,0.1719,0.3714,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y tick,4,0.1719,0.2422,0.0,14.0
+Figure08_WavelengthError_ExternalTest6,r1c2,y tick,6,0.1719,0.1129,0.0,14.0

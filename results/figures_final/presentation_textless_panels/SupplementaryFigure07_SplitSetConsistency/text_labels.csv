@@ -1,0 +1,65 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+SupplementaryFigure07_SplitSetConsistency,figure,figure title,Paired differences across the five split sets,0.215,0.0235,0.0,17.0
+SupplementaryFigure07_SplitSetConsistency,figure,legend entry 1 (below panels),Development cohort sets and ExternalTest6,0.3314,0.9244,0.0,12.6
+SupplementaryFigure07_SplitSetConsistency,figure,legend entry 2 (below panels),"Union16 sets (supplementary, fixed hyperparameters)",0.3629,0.9631,0.0,12.6
+SupplementaryFigure07_SplitSetConsistency,figure,legend entry 3 (below panels),Mean and standard error across subjects,0.7111,0.9244,0.0,12.6
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 10,0.967,0.1148,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 10,0.967,0.1565,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 6,0.9725,0.1982,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 16,0.967,0.2399,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 16,0.967,0.2816,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 10,0.967,0.3776,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 10,0.967,0.4193,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 6,0.9725,0.461,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 16,0.967,0.5027,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 16,0.967,0.5444,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 10,0.967,0.6404,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 10,0.967,0.6821,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 6,0.9725,0.7238,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 16,0.967,0.7655,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,annotation,n = 16,0.967,0.8072,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c1,panel title,(a) Absorbance RMSE,0.5084,0.026,0.0,16.0
+SupplementaryFigure07_SplitSetConsistency,r1c1,x axis name,Difference in absorbance RMSE / (×10⁻³ absorbance),0.6768,0.9455,0.0,16.0
+SupplementaryFigure07_SplitSetConsistency,r1c1,x tick,−3,0.2448,0.8718,0.0,14.0
+SupplementaryFigure07_SplitSetConsistency,r1c1,x tick,−2,0.4084,0.8718,0.0,14.0
+SupplementaryFigure07_SplitSetConsistency,r1c1,x tick,−1,0.5719,0.8718,0.0,14.0
+SupplementaryFigure07_SplitSetConsistency,r1c1,x tick,0,0.7355,0.8718,0.0,14.0
+SupplementaryFigure07_SplitSetConsistency,r1c1,x tick,1,0.8991,0.8718,0.0,14.0
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Development10_Holdout73,0.2306,0.1176,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Development10_LeaveOneSubjectOut,0.179,0.1593,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,ExternalTest6,0.291,0.201,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Union16_Holdout73,0.2644,0.2427,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Union16_LeaveOneSubjectOut,0.2127,0.2844,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Development10_Holdout73,0.2306,0.3804,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Development10_LeaveOneSubjectOut,0.179,0.4221,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,ExternalTest6,0.291,0.4638,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Union16_Holdout73,0.2644,0.5055,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Union16_LeaveOneSubjectOut,0.2127,0.5473,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Development10_Holdout73,0.2306,0.6432,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Development10_LeaveOneSubjectOut,0.179,0.6849,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,ExternalTest6,0.291,0.7266,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Union16_Holdout73,0.2644,0.7683,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,Union16_LeaveOneSubjectOut,0.2127,0.8101,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,PLS_v2 − Global Linear,0.2396,0.0863,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,BiGRU − Global Linear,0.2423,0.3491,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c1,y tick,BiGRU − PLS_v2,0.2706,0.6119,0.0,10.7
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 10,0.9489,0.1148,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 10,0.9489,0.1565,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 6,0.9574,0.1982,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 16,0.9489,0.2399,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 16,0.9489,0.2816,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 10,0.9489,0.3776,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 10,0.9489,0.4193,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 6,0.9574,0.461,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 16,0.9489,0.5027,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 16,0.9489,0.5444,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 10,0.9489,0.6404,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 10,0.9489,0.6821,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 6,0.9574,0.7238,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 16,0.9489,0.7655,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,annotation,n = 16,0.9489,0.8072,0.0,10.1
+SupplementaryFigure07_SplitSetConsistency,r1c2,panel title,(b) Peak RMSE,0.1704,0.026,0.0,16.0
+SupplementaryFigure07_SplitSetConsistency,r1c2,x axis name,Difference in Peak RMSE / (×10⁻³ absorbance),0.5,0.9455,0.0,16.0
+SupplementaryFigure07_SplitSetConsistency,r1c2,x tick,0.0,0.2524,0.8718,0.0,14.0
+SupplementaryFigure07_SplitSetConsistency,r1c2,x tick,0.2,0.5134,0.8718,0.0,14.0
+SupplementaryFigure07_SplitSetConsistency,r1c2,x tick,0.4,0.7745,0.8718,0.0,14.0

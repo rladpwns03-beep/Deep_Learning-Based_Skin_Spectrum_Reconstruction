@@ -1,0 +1,24 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,figure title,Peak_RS at HbI 0.6: model mean minus within-subject regression reference (External cohort),0.4512,0.0273,0.0,17.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,legend entry 1 (below panels),HbI-binned mean,0.155,0.9123,0.0,12.6
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,legend entry 2 (below panels),Global Linear,0.1433,0.9572,0.0,12.6
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,legend entry 3 (below panels),PLS_v2,0.2846,0.9123,0.0,12.6
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,legend entry 4 (below panels),BiGRU,0.2821,0.9572,0.0,12.6
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,legend entry 5 (below panels),Filled: in-range subject,0.4321,0.9123,0.0,12.6
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,legend entry 6 (below panels),Open: reference extrapolated to HbI 0.6,0.4846,0.9572,0.0,12.6
+SupplementaryFigure03_PeakRS_ReferenceComparison,figure,legend entry 7 (below panels),± standard error of the regression reference,0.7967,0.9123,0.0,12.6
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,x axis name,"Subject (second line: within-subject regression slope of Peak_RS on HbI, AU per HbI)",0.5507,0.969,0.0,16.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,x tick,S101 / −460,0.2036,0.8891,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,x tick,S102 / −331,0.3424,0.8891,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,x tick,S103 / −447,0.4813,0.8891,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,x tick,S104 / −647,0.6201,0.8891,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,x tick,S105 / −467,0.759,0.8891,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,x tick,S106 / −356,0.8978,0.8891,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y axis name,"Model − regression / reference at HbI 0.6, / Peak_RS (AU)",0.0336,0.4149,90.0,16.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y tick,−30,0.0822,0.9606,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y tick,−20,0.0822,0.8214,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y tick,−10,0.0822,0.6822,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y tick,0,0.0914,0.543,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y tick,10,0.0868,0.4038,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y tick,20,0.0868,0.2646,0.0,14.0
+SupplementaryFigure03_PeakRS_ReferenceComparison,r1c1,y tick,30,0.0868,0.1254,0.0,14.0

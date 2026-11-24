@@ -1,0 +1,83 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure07_ReconstructionExamples_ExternalTest6,S101,annotation,In-range subject,0.831,0.1569,0.0,11.9
+Figure07_ReconstructionExamples_ExternalTest6,S101,panel title,S101: HbI 0.54 to 0.52,0.4552,0.0496,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y axis name,Absorbance,0.0979,0.3737,90.0,16.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y axis name,Error / (×10⁻³),0.0721,0.8393,90.0,16.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y tick,0.2,0.1681,0.7436,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y tick,0.4,0.1681,0.5435,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y tick,0.6,0.1681,0.3435,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y tick,0.8,0.1681,0.1435,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y tick,0,0.1872,0.9427,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y tick,20,0.1741,0.8058,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S101,y tick,40,0.1741,0.6688,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,panel title,S102: HbI 0.44 to 0.45,0.3864,0.0489,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,0.2,0.0631,0.7551,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,0.4,0.0631,0.5243,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,0.6,0.0631,0.2935,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,0.8,0.0631,0.0627,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,−20,0.055,0.9511,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,−10,0.055,0.8456,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,0,0.0845,0.7401,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S102,y tick,10,0.0698,0.6346,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,panel title,S103: HbI 0.45 to 0.50,0.3763,0.0496,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,0.2,0.0477,0.7581,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,0.4,0.0477,0.5316,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,0.6,0.0477,0.305,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,0.8,0.0477,0.0785,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,−10,0.0395,0.9906,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,0,0.0695,0.9052,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,10,0.0545,0.8199,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,20,0.0545,0.7345,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S103,y tick,30,0.0545,0.6491,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,panel title,S104: HbI 0.46 to 0.47,0.4432,0.0421,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,x axis name,Wavelength (nm),0.5919,0.9537,0.0,16.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,x tick,400,0.2314,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,x tick,500,0.4717,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,x tick,600,0.7121,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,x tick,700,0.9524,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y axis name,Absorbance,0.0953,0.317,90.0,16.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y axis name,Error / (×10⁻³),0.0702,0.7049,90.0,16.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,0.2,0.1637,0.6535,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,0.4,0.1637,0.4721,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,0.6,0.1637,0.2906,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,0.8,0.1637,0.1091,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,−5,0.1695,0.8741,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,0,0.1823,0.8017,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,5,0.1823,0.7294,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,10,0.1695,0.6571,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S104,y tick,15,0.1695,0.5848,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,panel title,S105: HbI 0.55 to 0.58,0.3651,0.0421,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,x axis name,Wavelength (nm),0.5346,0.9537,0.0,16.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,x tick,400,0.1235,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,x tick,500,0.3976,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,x tick,600,0.6717,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,x tick,700,0.9458,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,0.2,0.0463,0.6372,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,0.4,0.0463,0.4533,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,0.6,0.0463,0.2694,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,0.8,0.0463,0.0855,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,−10,0.0384,0.8995,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,0,0.0675,0.7613,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,10,0.0529,0.6231,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S105,y tick,20,0.0529,0.4849,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,annotation,In-range subject,0.7858,0.1331,0.0,11.9
+Figure07_ReconstructionExamples_ExternalTest6,S106,panel title,S106: HbI 0.58 to 0.52,0.375,0.0421,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,x axis name,Wavelength (nm),0.5419,0.9537,0.0,16.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,x tick,400,0.1372,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,x tick,500,0.407,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,x tick,600,0.6768,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,x tick,700,0.9466,0.8732,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,0.2,0.0612,0.6201,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,0.4,0.0612,0.4415,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,0.6,0.0612,0.263,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,0.8,0.0612,0.0845,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,−20,0.0534,0.8288,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,−10,0.0534,0.7348,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,0,0.082,0.6409,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,S106,y tick,10,0.0677,0.547,0.0,14.0
+Figure07_ReconstructionExamples_ExternalTest6,figure,figure title,"Reconstruction examples in the External cohort (one pair per subject, fixed selection rule)",0.4392,0.0235,0.0,17.0
+Figure07_ReconstructionExamples_ExternalTest6,figure,legend entry 1 (below panels),Measured input,0.2746,0.9631,0.0,12.6
+Figure07_ReconstructionExamples_ExternalTest6,figure,legend entry 2 (below panels),Measured target,0.4258,0.9631,0.0,12.6
+Figure07_ReconstructionExamples_ExternalTest6,figure,legend entry 3 (below panels),Global Linear,0.5704,0.9631,0.0,12.6
+Figure07_ReconstructionExamples_ExternalTest6,figure,legend entry 4 (below panels),PLS_v2,0.6883,0.9631,0.0,12.6
+Figure07_ReconstructionExamples_ExternalTest6,figure,legend entry 5 (below panels),BiGRU,0.7867,0.9631,0.0,12.6

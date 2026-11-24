@@ -1,0 +1,129 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+SupplementaryFigure06_SHAP_InputGroupShare,figure,figure title,Band-level SHAP: share of input groups and input-by-output band map,0.35,0.0273,0.0,17.0
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 1 (below panels),Target HbI,0.1163,0.9059,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 2 (below panels),Input HbI (570 nm),0.1425,0.9508,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 3 (below panels),Soret,0.27,0.9059,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 4 (below panels),Band 450–460,0.2975,0.9508,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 5 (below panels),Carotenoid,0.4279,0.9059,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 6 (below panels),Q-band,0.4171,0.9508,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 7 (below panels),Red,0.5267,0.9059,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,figure,legend entry 8 (below panels),(b) rows: input group; cell values: mean |SHAP| (×10⁻³ absorbance),0.7325,0.954,0.0,12.6
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,50,0.3738,0.1671,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,50,0.696,0.1671,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,10,0.2463,0.3157,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,44,0.4217,0.3157,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,40,0.7242,0.3157,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,44,0.3556,0.4643,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,47,0.6484,0.4643,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,35,0.326,0.613,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,13,0.5316,0.613,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,9,0.6211,0.613,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,21,0.7208,0.613,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,10,0.8238,0.613,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,11,0.2477,0.7616,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,43,0.4193,0.7616,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,annotation,38,0.7295,0.7616,0.0,10.7
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,panel title,(a) Input group share,0.3861,0.0369,0.0,16.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,x axis name,Share of mean |SHAP| over 30 output wavelengths (%),0.5354,0.9631,0.0,16.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,x tick,0,0.2131,0.8988,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,x tick,20,0.342,0.8988,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,x tick,40,0.4709,0.8988,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,x tick,60,0.5998,0.8988,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,x tick,80,0.7287,0.8988,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,x tick,100,0.8576,0.8988,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,y tick,Global Linear,0.1058,0.1723,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,y tick,PLS_v2,0.1454,0.3211,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,y tick,BiGRU,0.1532,0.4696,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,y tick,PLS_v1,0.1454,0.6184,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c1,y tick,Ridge,0.1609,0.7668,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,21.2,0.4587,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,24.4,0.5769,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,23.1,0.6951,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,39.1,0.8133,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,6.9,0.9314,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,122.8,0.4587,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,83.8,0.5769,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,72.9,0.6951,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,49.4,0.8133,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,106.5,0.9314,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,2.7,0.4587,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,1.2,0.5769,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.5,0.6951,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.5,0.8133,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,2.7,0.9314,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.5,0.4587,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.5,0.5769,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.8,0.6951,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.4,0.8133,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,1.9,0.9314,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,3.1,0.4587,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,1.4,0.5769,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,3.4,0.6951,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,2.3,0.8133,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,13.2,0.9314,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,119.7,0.4587,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,75.8,0.5769,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,64.9,0.6951,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,22.9,0.8133,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,109.6,0.9314,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,1.1,0.4587,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.6,0.5769,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.5,0.6951,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,0.3,0.8133,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,annotation,1.4,0.9314,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,panel title,(b) PLS_v2,0.5287,0.0313,0.0,16.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,x axis name,Output band,0.6951,0.9687,0.0,16.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,x tick,Soret,0.4587,0.7782,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,x tick,450–460,0.5769,0.8117,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,x tick,Carotenoid,0.6951,0.8312,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,x tick,Q-band,0.8133,0.7987,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,x tick,Red,0.9314,0.7673,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,y tick,Target HbI,0.283,0.1186,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,y tick,Input HbI (570 nm),0.1988,0.2115,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,y tick,Soret,0.3337,0.3044,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,y tick,Band 450–460,0.2367,0.3972,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,y tick,Carotenoid,0.2757,0.4901,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,y tick,Q-band,0.3112,0.5829,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c2,y tick,Red,0.3456,0.6758,0.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,20.7,0.1124,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,25.0,0.3062,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,24.2,0.5,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,39.7,0.6938,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,8.8,0.8876,0.1142,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,22.9,0.1124,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,27.0,0.3062,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,25.8,0.5,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,40.8,0.6938,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,9.2,0.8876,0.2071,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.6,0.1124,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.8,0.3062,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.8,0.5,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.7,0.6938,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.6,0.8876,0.2999,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.1,0.1124,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.9,0.3062,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.2,0.5,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.2,0.6938,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.2,0.8876,0.3928,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,2.5,0.1124,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,2.4,0.3062,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.0,0.5,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.5,0.6938,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.5,0.8876,0.4857,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.8,0.1124,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.8,0.3062,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,2.0,0.5,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.1,0.6938,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.8,0.8876,0.5785,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.1,0.1124,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,1.0,0.3062,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.8,0.5,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.9,0.6938,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,annotation,0.9,0.8876,0.6714,0.0,9.5
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,panel title,BiGRU,0.1494,0.0313,0.0,16.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,x axis name,Output band,0.5,0.9687,0.0,16.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,x tick,Soret,0.1124,0.7782,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,x tick,450–460,0.3062,0.8117,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,x tick,Carotenoid,0.5,0.8312,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,x tick,Q-band,0.6938,0.7987,90.0,14.0
+SupplementaryFigure06_SHAP_InputGroupShare,r1c3,x tick,Red,0.8876,0.7673,90.0,14.0

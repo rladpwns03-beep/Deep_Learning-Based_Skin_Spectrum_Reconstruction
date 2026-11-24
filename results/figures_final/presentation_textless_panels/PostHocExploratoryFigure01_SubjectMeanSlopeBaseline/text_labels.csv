@@ -1,0 +1,45 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,annotation,"Post hoc, exploratory (not preregistered)",0.5983,0.7894,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,panel title,(a) Absorbance RMSE by subject,0.4436,0.0333,0.0,16.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,x tick,"Development cohort / (leave-one-subject-out, / n = 10)",0.3864,0.9176,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,x tick,External cohort / (n = 6),0.8101,0.8932,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y axis name,"Absorbance RMSE, / 570 nm excluded / (×10⁻³ absorbance)",0.0637,0.4527,90.0,16.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,0.0,0.1665,0.8379,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,2.5,0.1665,0.741,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,5.0,0.1665,0.644,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,7.5,0.1665,0.547,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,10.0,0.1582,0.45,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,12.5,0.1582,0.3531,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,15.0,0.1582,0.2561,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,17.5,0.1582,0.1591,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,a,y tick,20.0,0.1582,0.0621,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,panel title,(b) Slopes from the 10 / Development cohort subjects,0.4439,0.0631,0.0,16.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x axis name,Wavelength (nm),0.577,0.9677,0.0,16.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,350,0.0646,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,400,0.1927,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,450,0.3208,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,500,0.4489,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,550,0.577,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,600,0.7051,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,650,0.8332,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,x tick,700,0.9613,0.9115,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y axis name,Slope b / (per unit HbI),0.0531,0.3261,90.0,16.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y axis name,Mean − pooled,0.0376,0.7151,90.0,16.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,−0.5,0.1243,0.703,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,0.0,0.1347,0.5216,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,0.5,0.1347,0.3402,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,1.0,0.1347,0.1587,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,−0.10,0.1139,0.9655,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,−0.05,0.1139,0.7733,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,0.00,0.1243,0.5811,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,b,y tick,0.05,0.1243,0.3889,0.0,14.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,figure title,"Post hoc, exploratory (not preregistered): Global Linear with the mean of subject slopes",0.43,0.0242,0.0,17.0
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 1 (below panels),Global Linear,0.2275,0.8021,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 2 (below panels),Global Linear (mean of subject slopes),0.3067,0.8421,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 3 (below panels),PLS_v2,0.2104,0.8821,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 4 (below panels),BiGRU,0.2079,0.922,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 5 (below panels),"Development cohort (leave-one-subject-out, n = 10)",0.3471,0.962,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 6 (below panels),External cohort (n = 6),0.6308,0.8021,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 7 (below panels),Mean and standard error across subjects,0.6888,0.8421,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 8 (below panels),(b) Pooled within-subject slope (Global Linear),0.7046,0.8821,0.0,12.6
+PostHocExploratoryFigure01_SubjectMeanSlopeBaseline,figure,legend entry 9 (below panels),(b) Mean of subject slopes,0.6433,0.922,0.0,12.6

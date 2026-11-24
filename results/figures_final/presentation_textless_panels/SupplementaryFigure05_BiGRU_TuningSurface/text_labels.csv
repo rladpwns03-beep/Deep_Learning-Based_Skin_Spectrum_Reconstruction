@@ -1,0 +1,37 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+SupplementaryFigure05_BiGRU_TuningSurface,figure,figure title,"BiGRU tuning: inner validation error of the 84 candidates (Development cohort, 10 subjects)",0.4483,0.0235,0.0,17.0
+SupplementaryFigure05_BiGRU_TuningSurface,figure,legend entry 1 (below panels),slope_l2 = 0,0.2017,0.9244,0.0,12.6
+SupplementaryFigure05_BiGRU_TuningSurface,figure,legend entry 2 (below panels),slope_l2 = 0.001,0.215,0.9631,0.0,12.6
+SupplementaryFigure05_BiGRU_TuningSurface,figure,legend entry 3 (below panels),slope_l2 = 0.01,0.3662,0.9244,0.0,12.6
+SupplementaryFigure05_BiGRU_TuningSurface,figure,legend entry 4 (below panels),slope_l2 = 0.1,0.3625,0.9631,0.0,12.6
+SupplementaryFigure05_BiGRU_TuningSurface,figure,legend entry 5 (below panels),Epoch 0 (identical to Global Linear),0.5758,0.9244,0.0,12.6
+SupplementaryFigure05_BiGRU_TuningSurface,figure,legend entry 6 (below panels),Selected setting,0.5162,0.9631,0.0,12.6
+SupplementaryFigure05_BiGRU_TuningSurface,figure,legend entry 7 (below panels),BiGRU (fixed setting),0.8046,0.9244,0.0,12.6
+SupplementaryFigure05_BiGRU_TuningSurface,r1c1,panel title,Hidden size 4,0.6356,0.0545,0.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r1c1,y axis name,Validation / absorbance RMSE / (×10⁻³ absorbance),0.0878,0.5356,90.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r1c1,y tick,11.5,0.2198,0.7203,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r1c1,y tick,12.0,0.2183,0.4387,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r1c1,y tick,12.5,0.2183,0.1571,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r1c2,panel title,Hidden size 8,0.5079,0.0545,0.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r1c3,panel title,Hidden size 16,0.5079,0.0545,0.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,x axis name,Epoch,0.6344,0.9502,0.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,x tick,0,0.3112,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,x tick,100,0.5267,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,x tick,200,0.7421,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,x tick,300,0.9576,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,y axis name,Validation / Peak RMSE / (×10⁻³ absorbance),0.0877,0.4049,90.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,y tick,0.50,0.2179,0.9534,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,y tick,0.75,0.2179,0.7612,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,y tick,1.00,0.2179,0.5691,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,y tick,1.25,0.2179,0.3769,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c1,y tick,1.50,0.2179,0.1848,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c2,x axis name,Epoch,0.5066,0.9502,0.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c2,x tick,0,0.0705,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c2,x tick,100,0.3612,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c2,x tick,200,0.652,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c2,x tick,300,0.9427,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c3,x axis name,Epoch,0.5066,0.9502,0.0,16.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c3,x tick,0,0.0705,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c3,x tick,100,0.3612,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c3,x tick,200,0.652,0.8636,0.0,14.0
+SupplementaryFigure05_BiGRU_TuningSurface,r2c3,x tick,300,0.9427,0.8636,0.0,14.0

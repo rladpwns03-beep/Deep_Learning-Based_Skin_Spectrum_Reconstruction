@@ -1,0 +1,42 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+SupplementaryFigure01_ResidualSlopeSpectrum,figure,figure title,Residual slope at each wavelength: models and personal reference,0.3292,0.0273,0.0,17.0
+SupplementaryFigure01_ResidualSlopeSpectrum,figure,legend entry 1 (below panels),Personal reference,0.1921,0.9572,0.0,12.6
+SupplementaryFigure01_ResidualSlopeSpectrum,figure,legend entry 2 (below panels),PLS_v2,0.3279,0.9572,0.0,12.6
+SupplementaryFigure01_ResidualSlopeSpectrum,figure,legend entry 3 (below panels),BiGRU,0.4262,0.9572,0.0,12.6
+SupplementaryFigure01_ResidualSlopeSpectrum,figure,legend entry 4 (below panels),Band: mean ± standard error across subjects (570 nm excluded),0.7012,0.9572,0.0,12.6
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,annotation,Soret,0.2308,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,annotation,Band 450–460,0.323,0.1483,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,annotation,Carotenoid,0.4152,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,annotation,Q-band,0.5863,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,annotation,Red,0.8365,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,panel title,"(a) Development cohort / (leave-one-subject-out, n = 10)",0.3936,0.0575,0.0,16.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x axis name,Wavelength (nm),0.5732,0.9706,0.0,16.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,350,0.0465,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,400,0.1781,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,450,0.3098,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,500,0.4415,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,550,0.5732,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,600,0.7049,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,650,0.8365,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,x tick,700,0.9682,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,y axis name,Residual slope / (absorbance per unit HbI),0.0437,0.5304,90.0,16.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,y tick,−0.3,0.1193,0.8607,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,y tick,−0.2,0.1193,0.7071,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,y tick,−0.1,0.1193,0.5535,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,y tick,0.0,0.1278,0.3999,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,y tick,0.1,0.1278,0.2463,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c1,y tick,0.2,0.1278,0.0926,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,annotation,Soret,0.0989,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,annotation,Band 450–460,0.2069,0.1483,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,annotation,Carotenoid,0.3149,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,annotation,Q-band,0.5154,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,annotation,Red,0.8085,0.1649,0.0,11.9
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,panel title,(b) External cohort / (n = 6),0.1834,0.0575,0.0,16.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x axis name,Wavelength (nm),0.5,0.9706,0.0,16.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x tick,400,0.0372,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x tick,450,0.1915,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x tick,500,0.3457,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x tick,550,0.5,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x tick,600,0.6543,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x tick,650,0.8085,0.9194,0.0,14.0
+SupplementaryFigure01_ResidualSlopeSpectrum,r1c2,x tick,700,0.9628,0.9194,0.0,14.0

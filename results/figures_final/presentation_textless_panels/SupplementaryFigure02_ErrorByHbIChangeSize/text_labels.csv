@@ -1,0 +1,43 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+SupplementaryFigure02_ErrorByHbIChangeSize,figure,figure title,Difference from Global Linear by size of the HbI change,0.2746,0.0235,0.0,17.0
+SupplementaryFigure02_ErrorByHbIChangeSize,figure,legend entry 1 (below panels),PLS_v2 − Global Linear,0.1854,0.9631,0.0,12.6
+SupplementaryFigure02_ErrorByHbIChangeSize,figure,legend entry 2 (below panels),BiGRU − Global Linear,0.3829,0.9631,0.0,12.6
+SupplementaryFigure02_ErrorByHbIChangeSize,figure,legend entry 3 (below panels),Mean and standard error across the n subjects with pairs in the bin,0.715,0.9631,0.0,12.6
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,annotation,n = 10,0.2696,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,annotation,n = 10,0.4933,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,annotation,n = 9,0.717,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,annotation,n = 8,0.9407,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,panel title,"Development cohort (leave-one-subject-out, n = 10)",0.6051,0.0472,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,y axis name,Difference in / absorbance RMSE / from Global Linear / (×10⁻³ absorbance),0.0824,0.5303,90.0,16.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,y tick,−4,0.1838,0.8609,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,y tick,−2,0.1838,0.6447,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,y tick,0,0.1921,0.4285,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c1,y tick,2,0.1921,0.2123,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c2,annotation,n = 6,0.085,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c2,annotation,n = 6,0.3652,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c2,annotation,n = 6,0.6455,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c2,annotation,n = 5,0.9257,0.9225,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r1c2,panel title,External cohort (n = 6),0.5053,0.0472,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,annotation,n = 10,0.2745,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,annotation,n = 10,0.4961,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,annotation,n = 9,0.7177,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,annotation,n = 8,0.9393,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,x axis name,|ΔHbI| between input and target,0.6069,0.9523,0.0,16.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,x tick,0–0.025,0.2745,0.8737,0.0,11.9
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,x tick,0.025–0.05,0.4961,0.8737,0.0,11.9
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,x tick,0.05–0.10,0.7177,0.8737,0.0,11.9
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,x tick,0.10–0.30,0.9393,0.8737,0.0,11.9
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,y axis name,Difference in / Peak RMSE / from Global Linear / (×10⁻³ absorbance),0.0816,0.4133,90.0,16.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,y tick,−0.5,0.1776,0.8665,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,y tick,0.0,0.1858,0.6172,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,y tick,0.5,0.1858,0.3679,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c1,y tick,1.0,0.1858,0.1187,0.0,14.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,annotation,n = 6,0.0847,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,annotation,n = 6,0.3643,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,annotation,n = 6,0.6438,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,annotation,n = 5,0.9234,0.7739,0.0,10.7
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,x axis name,|ΔHbI| between input and target,0.5041,0.9523,0.0,16.0
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,x tick,0–0.025,0.0847,0.8737,0.0,11.9
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,x tick,0.025–0.05,0.3643,0.8737,0.0,11.9
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,x tick,0.05–0.10,0.6438,0.8737,0.0,11.9
+SupplementaryFigure02_ErrorByHbIChangeSize,r2c2,x tick,0.10–0.30,0.9234,0.8737,0.0,11.9

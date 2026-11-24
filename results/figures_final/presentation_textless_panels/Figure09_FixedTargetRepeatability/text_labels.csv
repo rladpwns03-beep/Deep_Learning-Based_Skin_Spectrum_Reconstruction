@@ -1,0 +1,32 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure09_FixedTargetRepeatability,figure,figure title,Fixed-target repeatability: within-subject SD after reconstruction to HbI 0.6,0.365,0.0246,0.0,17.0
+Figure09_FixedTargetRepeatability,figure,legend entry 1 (below panels),Raw,0.0862,0.8801,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 2 (below panels),HbI-binned mean,0.1254,0.9207,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 3 (below panels),Global Linear,0.1138,0.9614,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 4 (below panels),PLS_v2,0.255,0.8801,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 5 (below panels),BiGRU,0.2525,0.9207,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 6 (below panels),PLS_v1,0.3558,0.8801,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 7 (below panels),"Development cohort (leave-one-subject-out, n = 10)",0.4925,0.9207,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 8 (below panels),External cohort (n = 6),0.7762,0.8801,0.0,12.6
+Figure09_FixedTargetRepeatability,figure,legend entry 9 (below panels),Mean and standard error across subjects,0.8342,0.9207,0.0,12.6
+Figure09_FixedTargetRepeatability,r1c1,panel title,(a) Peak SD at target HbI 0.6,0.4393,0.0289,0.0,16.0
+Figure09_FixedTargetRepeatability,r1c1,x tick,"Development cohort / (leave-one-subject-out, / n = 10)",0.393,0.9285,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,x tick,External cohort / (n = 6),0.8064,0.9074,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y axis name,Peak SD / at target HbI 0.6 / (×10⁻³ absorbance),0.0705,0.4589,90.0,16.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,0.0,0.1662,0.8594,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,0.5,0.1662,0.7454,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,1.0,0.1662,0.6314,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,1.5,0.1662,0.5174,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,2.0,0.1662,0.4034,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,2.5,0.1662,0.2894,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,3.0,0.1662,0.1754,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c1,y tick,3.5,0.1662,0.0614,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c2,panel title,(b) Spectral SD at target HbI 0.6,0.4598,0.0289,0.0,16.0
+Figure09_FixedTargetRepeatability,r1c2,x tick,"Development cohort / (leave-one-subject-out, / n = 10)",0.3879,0.9285,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c2,x tick,External cohort / (n = 6),0.8048,0.9074,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c2,y axis name,Spectral SD / at target HbI 0.6 / (×10⁻³ absorbance),0.0711,0.4589,90.0,16.0
+Figure09_FixedTargetRepeatability,r1c2,y tick,0,0.1726,0.8594,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c2,y tick,10,0.1634,0.6873,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c2,y tick,20,0.1634,0.5153,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c2,y tick,30,0.1634,0.3432,0.0,14.0
+Figure09_FixedTargetRepeatability,r1c2,y tick,40,0.1634,0.1712,0.0,14.0

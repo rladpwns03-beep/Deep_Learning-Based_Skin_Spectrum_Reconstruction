@@ -1,0 +1,28 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure02_ModelComparison,figure,figure title,General reconstruction error by model and cohort,0.2479,0.0246,0.0,17.0
+Figure02_ModelComparison,figure,legend entry 1 (below panels),HbI-binned mean,0.1254,0.9207,0.0,12.6
+Figure02_ModelComparison,figure,legend entry 2 (below panels),Global Linear,0.1138,0.9614,0.0,12.6
+Figure02_ModelComparison,figure,legend entry 3 (below panels),PLS_v2,0.255,0.9207,0.0,12.6
+Figure02_ModelComparison,figure,legend entry 4 (below panels),BiGRU,0.2525,0.9614,0.0,12.6
+Figure02_ModelComparison,figure,legend entry 5 (below panels),"Development cohort (leave-one-subject-out, n = 10)",0.4925,0.9207,0.0,12.6
+Figure02_ModelComparison,figure,legend entry 6 (below panels),External cohort (n = 6),0.4021,0.9614,0.0,12.6
+Figure02_ModelComparison,figure,legend entry 7 (below panels),Mean and standard error across subjects,0.8342,0.9207,0.0,12.6
+Figure02_ModelComparison,r1c1,panel title,(a) Absorbance RMSE,0.3691,0.0275,0.0,16.0
+Figure02_ModelComparison,r1c1,x tick,"Development cohort / (leave-one-subject-out, / n = 10)",0.3789,0.9319,0.0,14.0
+Figure02_ModelComparison,r1c1,x tick,External cohort / (n = 6),0.8075,0.9118,0.0,14.0
+Figure02_ModelComparison,r1c1,y axis name,"Absorbance RMSE, / 570 nm excluded / (×10⁻³ absorbance)",0.0688,0.4609,90.0,16.0
+Figure02_ModelComparison,r1c1,y tick,0,0.167,0.8661,0.0,14.0
+Figure02_ModelComparison,r1c1,y tick,5,0.167,0.6993,0.0,14.0
+Figure02_ModelComparison,r1c1,y tick,10,0.158,0.5324,0.0,14.0
+Figure02_ModelComparison,r1c1,y tick,15,0.158,0.3655,0.0,14.0
+Figure02_ModelComparison,r1c1,y tick,20,0.158,0.1987,0.0,14.0
+Figure02_ModelComparison,r1c1,y tick,25,0.158,0.0318,0.0,14.0
+Figure02_ModelComparison,r1c2,panel title,(b) Peak RMSE,0.275,0.0275,0.0,16.0
+Figure02_ModelComparison,r1c2,x tick,"Development cohort / (leave-one-subject-out, / n = 10)",0.3413,0.9319,0.0,14.0
+Figure02_ModelComparison,r1c2,x tick,External cohort / (n = 6),0.7958,0.9118,0.0,14.0
+Figure02_ModelComparison,r1c2,y axis name,Peak RMSE / (×10⁻³ absorbance),0.0521,0.4609,90.0,16.0
+Figure02_ModelComparison,r1c2,y tick,0,0.1165,0.8661,0.0,14.0
+Figure02_ModelComparison,r1c2,y tick,1,0.1165,0.6926,0.0,14.0
+Figure02_ModelComparison,r1c2,y tick,2,0.1165,0.519,0.0,14.0
+Figure02_ModelComparison,r1c2,y tick,3,0.1165,0.3455,0.0,14.0
+Figure02_ModelComparison,r1c2,y tick,4,0.1165,0.1719,0.0,14.0

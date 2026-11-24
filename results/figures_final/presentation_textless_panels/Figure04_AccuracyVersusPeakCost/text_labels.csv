@@ -1,0 +1,35 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure04_AccuracyVersusPeakCost,figure,figure title,"Absorbance RMSE difference versus Peak RMSE difference, relative to Global Linear",0.4125,0.0258,0.0,17.0
+Figure04_AccuracyVersusPeakCost,figure,legend entry 1 (below panels),Global Linear,0.2346,0.9167,0.0,12.6
+Figure04_AccuracyVersusPeakCost,figure,legend entry 2 (below panels),PLS_v2,0.2175,0.9594,0.0,12.6
+Figure04_AccuracyVersusPeakCost,figure,legend entry 3 (below panels),BiGRU,0.35,0.9167,0.0,12.6
+Figure04_AccuracyVersusPeakCost,figure,legend entry 4 (below panels),PLS_v1,0.3525,0.9594,0.0,12.6
+Figure04_AccuracyVersusPeakCost,figure,legend entry 5 (below panels),Ridge,0.4471,0.9167,0.0,12.6
+Figure04_AccuracyVersusPeakCost,figure,legend entry 6 (below panels),BiGRU (fixed setting),0.4958,0.9594,0.0,12.6
+Figure04_AccuracyVersusPeakCost,figure,legend entry 7 (below panels),BiGRU (Peak-constrained selection),0.7283,0.9167,0.0,12.6
+Figure04_AccuracyVersusPeakCost,r1c1,panel title,"(a) Development cohort / (leave-one-subject-out, n = 10)",0.4274,0.0569,0.0,16.0
+Figure04_AccuracyVersusPeakCost,r1c1,x axis name,Absorbance RMSE difference / from Global Linear (×10⁻³ absorbance),0.599,0.9389,0.0,16.0
+Figure04_AccuracyVersusPeakCost,r1c1,x tick,−2.0,0.1662,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,x tick,−1.5,0.2922,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,x tick,−1.0,0.4182,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,x tick,−0.5,0.5442,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,x tick,0.0,0.6702,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,x tick,0.5,0.7962,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,x tick,1.0,0.9222,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y axis name,Peak RMSE difference / from Global Linear / (×10⁻³ absorbance),0.0641,0.466,90.0,16.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,−0.2,0.1594,0.9199,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,−0.1,0.1594,0.8031,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,0.0,0.1677,0.6863,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,0.1,0.1677,0.5694,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,0.2,0.1677,0.4526,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,0.3,0.1677,0.3358,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,0.4,0.1677,0.219,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c1,y tick,0.5,0.1677,0.1022,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c2,panel title,(b) External cohort / (n = 6),0.1843,0.0569,0.0,16.0
+Figure04_AccuracyVersusPeakCost,r1c2,x axis name,Absorbance RMSE difference / from Global Linear (×10⁻³ absorbance),0.5053,0.9389,0.0,16.0
+Figure04_AccuracyVersusPeakCost,r1c2,x tick,−1.5,0.1267,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c2,x tick,−1.0,0.2822,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c2,x tick,−0.5,0.4376,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c2,x tick,0.0,0.5931,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c2,x tick,0.5,0.7485,0.8562,0.0,14.0
+Figure04_AccuracyVersusPeakCost,r1c2,x tick,1.0,0.904,0.8562,0.0,14.0

@@ -1,0 +1,58 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure01_DataOverview,figure,figure title,Measured HbI and absorbance spectra of the 16 subjects (160 measurements),0.3787,0.0273,0.0,17.0
+Figure01_DataOverview,figure,legend entry 1 (below panels),"Development cohort (leave-one-subject-out, n = 10)",0.3062,0.9123,0.0,12.6
+Figure01_DataOverview,figure,legend entry 2 (below panels),External cohort (n = 6),0.2158,0.9572,0.0,12.6
+Figure01_DataOverview,figure,legend entry 3 (below panels),Thin lines: subject means; dotted lines: 490 nm and 570 nm,0.7046,0.9123,0.0,12.6
+Figure01_DataOverview,r1c1,annotation,target HbI 0.6 ± 0.02,0.8431,0.3574,0.0,11.9
+Figure01_DataOverview,r1c1,panel title,(a) Measured HbI by subject,0.3963,0.0402,0.0,16.0
+Figure01_DataOverview,r1c1,x axis name,Subject,0.5691,0.9669,0.0,16.0
+Figure01_DataOverview,r1c1,x tick,S001,0.184,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S002,0.2353,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S003,0.2867,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S004,0.338,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S005,0.3894,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S006,0.4407,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S007,0.492,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S008,0.5434,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S009,0.5947,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S010,0.6461,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S101,0.6974,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S102,0.7488,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S103,0.8001,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S104,0.8514,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S105,0.9028,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,x tick,S106,0.9541,0.8776,90.0,14.0
+Figure01_DataOverview,r1c1,y axis name,Measured HbI = absorbance at 570 nm,0.0266,0.4399,90.0,16.0
+Figure01_DataOverview,r1c1,y tick,0.40,0.0911,0.8413,0.0,14.0
+Figure01_DataOverview,r1c1,y tick,0.45,0.0911,0.7259,0.0,14.0
+Figure01_DataOverview,r1c1,y tick,0.50,0.0911,0.6106,0.0,14.0
+Figure01_DataOverview,r1c1,y tick,0.55,0.0911,0.4952,0.0,14.0
+Figure01_DataOverview,r1c1,y tick,0.60,0.0911,0.3799,0.0,14.0
+Figure01_DataOverview,r1c1,y tick,0.65,0.0911,0.2645,0.0,14.0
+Figure01_DataOverview,r1c1,y tick,0.70,0.0911,0.1492,0.0,14.0
+Figure01_DataOverview,r1c1,y tick,0.75,0.0911,0.0338,0.0,14.0
+Figure01_DataOverview,r1c2,annotation,Soret,0.1748,0.1257,0.0,11.9
+Figure01_DataOverview,r1c2,annotation,Band 450–460,0.274,0.1071,0.0,11.9
+Figure01_DataOverview,r1c2,annotation,Carotenoid,0.3733,0.1257,0.0,11.9
+Figure01_DataOverview,r1c2,annotation,Q-band,0.5575,0.1257,0.0,11.9
+Figure01_DataOverview,r1c2,annotation,Red,0.8269,0.1257,0.0,11.9
+Figure01_DataOverview,r1c2,legend entry 1 (inside panel),Development cohort mean (n = 10 subjects),0.709,0.1961,0.0,11.9
+Figure01_DataOverview,r1c2,legend entry 2 (inside panel),External cohort mean (n = 6 subjects),0.6746,0.2506,0.0,11.9
+Figure01_DataOverview,r1c2,panel title,(b) Mean absorbance spectrum,0.3335,0.033,0.0,16.0
+Figure01_DataOverview,r1c2,x axis name,Wavelength (nm),0.5434,0.967,0.0,16.0
+Figure01_DataOverview,r1c2,x tick,400,0.1181,0.9096,0.0,14.0
+Figure01_DataOverview,r1c2,x tick,450,0.2598,0.9096,0.0,14.0
+Figure01_DataOverview,r1c2,x tick,500,0.4016,0.9096,0.0,14.0
+Figure01_DataOverview,r1c2,x tick,550,0.5434,0.9096,0.0,14.0
+Figure01_DataOverview,r1c2,x tick,600,0.6851,0.9096,0.0,14.0
+Figure01_DataOverview,r1c2,x tick,650,0.8269,0.9096,0.0,14.0
+Figure01_DataOverview,r1c2,x tick,700,0.9686,0.9096,0.0,14.0
+Figure01_DataOverview,r1c2,y axis name,Absorbance,0.0221,0.5046,90.0,16.0
+Figure01_DataOverview,r1c2,y tick,0.2,0.0672,0.9443,0.0,14.0
+Figure01_DataOverview,r1c2,y tick,0.3,0.0672,0.8189,0.0,14.0
+Figure01_DataOverview,r1c2,y tick,0.4,0.0672,0.6934,0.0,14.0
+Figure01_DataOverview,r1c2,y tick,0.5,0.0672,0.568,0.0,14.0
+Figure01_DataOverview,r1c2,y tick,0.6,0.0672,0.4425,0.0,14.0
+Figure01_DataOverview,r1c2,y tick,0.7,0.0672,0.3171,0.0,14.0
+Figure01_DataOverview,r1c2,y tick,0.8,0.0672,0.1916,0.0,14.0
+Figure01_DataOverview,r1c2,y tick,0.9,0.0672,0.0662,0.0,14.0

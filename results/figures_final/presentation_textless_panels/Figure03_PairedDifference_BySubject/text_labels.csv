@@ -1,0 +1,84 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+Figure03_PairedDifference_BySubject,figure,figure title,"Paired differences between models, by subject",0.2325,0.0235,0.0,17.0
+Figure03_PairedDifference_BySubject,figure,legend entry 1 (below panels),"Development cohort (leave-one-subject-out, n = 10)",0.2662,0.9631,0.0,12.6
+Figure03_PairedDifference_BySubject,figure,legend entry 2 (below panels),External cohort (n = 6),0.55,0.9631,0.0,12.6
+Figure03_PairedDifference_BySubject,figure,legend entry 3 (below panels),Mean and standard error across subjects,0.8012,0.9631,0.0,12.6
+Figure03_PairedDifference_BySubject,r1c1,annotation,S009,0.5658,0.9509,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c1,annotation,S008,0.5508,0.7196,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c1,annotation,S102,0.6619,0.697,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c1,annotation,S104,0.8333,0.6494,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c1,annotation,8/10 lower,0.4546,0.1449,0.0,11.9
+Figure03_PairedDifference_BySubject,r1c1,annotation,4/6 lower,0.7611,0.1449,0.0,11.9
+Figure03_PairedDifference_BySubject,r1c1,panel title,PLS_v2 − Global Linear,0.6308,0.0524,0.0,16.0
+Figure03_PairedDifference_BySubject,r1c1,y axis name,Difference in / absorbance RMSE / (×10⁻³ absorbance),0.0966,0.5445,90.0,16.0
+Figure03_PairedDifference_BySubject,r1c1,y tick,−6,0.2218,0.9939,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c1,y tick,−4,0.2218,0.8104,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c1,y tick,−2,0.2218,0.6269,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c1,y tick,0,0.2343,0.4434,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c1,y tick,2,0.2343,0.2599,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c1,y tick,4,0.2343,0.0764,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c2,annotation,S004,0.2288,0.9005,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c2,annotation,S009,0.4655,0.6103,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c2,annotation,S103,0.617,0.929,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c2,annotation,S104,0.7948,0.617,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c2,annotation,8/10 lower,0.3287,0.1416,0.0,11.9
+Figure03_PairedDifference_BySubject,r1c2,annotation,4/6 lower,0.7059,0.1416,0.0,11.9
+Figure03_PairedDifference_BySubject,r1c2,panel title,BiGRU − Global Linear,0.5456,0.0512,0.0,16.0
+Figure03_PairedDifference_BySubject,r1c2,y tick,−4,0.0421,0.9534,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c2,y tick,−2,0.0421,0.6723,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c2,y tick,0,0.0575,0.3911,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c2,y tick,2,0.0575,0.1099,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c3,annotation,S009,0.4655,0.2597,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c3,annotation,S004,0.2288,0.7529,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c3,annotation,S103,0.617,0.9509,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c3,annotation,S102,0.5838,0.3134,0.0,10.7
+Figure03_PairedDifference_BySubject,r1c3,annotation,6/10 lower,0.3287,0.1449,0.0,11.9
+Figure03_PairedDifference_BySubject,r1c3,annotation,2/6 lower,0.7059,0.1449,0.0,11.9
+Figure03_PairedDifference_BySubject,r1c3,panel title,BiGRU − PLS_v2,0.5456,0.0524,0.0,16.0
+Figure03_PairedDifference_BySubject,r1c3,y tick,−4,0.0421,0.8671,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c3,y tick,−2,0.0421,0.7171,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c3,y tick,0,0.0575,0.5672,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c3,y tick,2,0.0575,0.4172,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c3,y tick,4,0.0575,0.2672,0.0,14.0
+Figure03_PairedDifference_BySubject,r1c3,y tick,6,0.0575,0.1173,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c1,annotation,S009,0.5811,0.7964,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c1,annotation,S004,0.3955,0.3573,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c1,annotation,S106,0.8912,0.1577,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c1,annotation,S102,0.6738,0.1739,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c1,annotation,4/10 lower,0.4738,0.0517,0.0,11.9
+Figure03_PairedDifference_BySubject,r2c1,annotation,3/6 lower,0.7695,0.0517,0.0,11.9
+Figure03_PairedDifference_BySubject,r2c1,x tick,Development / cohort,0.4738,0.9156,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c1,x tick,External / cohort,0.7695,0.9156,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c1,y axis name,Difference in / Peak RMSE / (×10⁻³ absorbance),0.0932,0.4209,90.0,16.0
+Figure03_PairedDifference_BySubject,r2c1,y tick,−0.4,0.2316,0.8269,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c1,y tick,−0.2,0.2316,0.5692,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c1,y tick,0.0,0.2437,0.3115,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c1,y tick,0.2,0.2437,0.0537,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,annotation,S009,0.5032,0.1577,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c2,annotation,S004,0.2831,0.1653,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c2,annotation,S106,0.8709,0.4196,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c2,annotation,S102,0.6131,0.476,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c2,annotation,2/10 lower,0.376,0.0517,0.0,11.9
+Figure03_PairedDifference_BySubject,r2c2,annotation,1/6 lower,0.7266,0.0517,0.0,11.9
+Figure03_PairedDifference_BySubject,r2c2,x tick,Development / cohort,0.376,0.9156,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,x tick,External / cohort,0.7266,0.9156,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,y tick,−0.50,0.0744,0.9585,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,y tick,−0.25,0.0744,0.8205,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,y tick,0.00,0.0887,0.6825,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,y tick,0.25,0.0887,0.5446,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,y tick,0.50,0.0887,0.4066,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,y tick,0.75,0.0887,0.2686,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c2,y tick,1.00,0.0887,0.1307,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c3,annotation,S009,0.4729,0.1577,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c3,annotation,S004,0.2395,0.3069,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c3,annotation,S104,0.655,0.561,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c3,annotation,S106,0.8631,0.5661,0.0,10.7
+Figure03_PairedDifference_BySubject,r2c3,annotation,5/10 lower,0.338,0.0517,0.0,11.9
+Figure03_PairedDifference_BySubject,r2c3,annotation,1/6 lower,0.71,0.0517,0.0,11.9
+Figure03_PairedDifference_BySubject,r2c3,x tick,Development / cohort,0.338,0.9156,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c3,x tick,External / cohort,0.71,0.9156,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c3,y tick,−0.5,0.0332,0.9307,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c3,y tick,0.0,0.0484,0.7202,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c3,y tick,0.5,0.0484,0.5098,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c3,y tick,1.0,0.0484,0.2993,0.0,14.0
+Figure03_PairedDifference_BySubject,r2c3,y tick,1.5,0.0484,0.0889,0.0,14.0

@@ -1,0 +1,32 @@
+﻿figure,panel,kind,text,x_fraction,y_fraction_from_top,rotation_deg,font_size_pt
+SupplementaryFigure04_TrainingSizeEffect,figure,figure title,Absorbance RMSE of the same test subjects with fewer and with 15 training subjects,0.4146,0.0263,0.0,17.0
+SupplementaryFigure04_TrainingSizeEffect,figure,legend entry 1 (below panels),Global Linear,0.1925,0.9587,0.0,12.6
+SupplementaryFigure04_TrainingSizeEffect,figure,legend entry 2 (below panels),PLS_v2,0.3104,0.9587,0.0,12.6
+SupplementaryFigure04_TrainingSizeEffect,figure,legend entry 3 (below panels),BiGRU,0.4088,0.9587,0.0,12.6
+SupplementaryFigure04_TrainingSizeEffect,figure,legend entry 4 (below panels),Thin lines: individual subjects; thick lines: mean across subjects,0.6833,0.9587,0.0,12.6
+SupplementaryFigure04_TrainingSizeEffect,r1c1,panel title,(a) External cohort (n = 6),0.3713,0.0283,0.0,16.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,x axis name,Number of training subjects,0.5879,0.9717,0.0,16.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,x tick,10,0.2384,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,x tick,15,0.3512,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,x tick,10,0.5316,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,x tick,15,0.6443,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,x tick,10,0.8247,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,x tick,15,0.9375,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y axis name,"Absorbance RMSE, / 570 nm excluded / (×10⁻³ absorbance)",0.0649,0.4727,90.0,16.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,4,0.1575,0.9036,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,6,0.1575,0.7991,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,8,0.1575,0.6947,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,10,0.1491,0.5903,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,12,0.1491,0.4858,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,14,0.1491,0.3814,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,16,0.1491,0.2769,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,18,0.1491,0.1725,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c1,y tick,20,0.1491,0.0681,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,panel title,(b) Development cohort (n = 10),0.3003,0.0283,0.0,16.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,x axis name,Number of training subjects,0.5052,0.9717,0.0,16.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,x tick,9,0.0854,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,x tick,15,0.2208,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,x tick,9,0.4375,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,x tick,15,0.5729,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,x tick,9,0.7895,0.9225,0.0,14.0
+SupplementaryFigure04_TrainingSizeEffect,r1c2,x tick,15,0.9249,0.9225,0.0,14.0
